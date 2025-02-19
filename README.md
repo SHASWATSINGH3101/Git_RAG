@@ -1,5 +1,8 @@
 # RAG-Powered GitHub Code Ingestion and Query System
 
+<img src="https://github.com/SHASWATSINGH3101/Git_RAG/blob/main/assets/e9601c1a-a2de-4c6f-8d4d-2ad7a609bdf0.jpg" alt="Guardian-Eye.AI" width="350">
+
+
 This project provides a streamlined way to ingest GitHub repositories, process their contents, and use Retrieval-Augmented Generation (RAG) with a Language Model to answer questions about the code. This project runs locally and requires Ollama with the LLM of your choice installed.
 
 ## Features
