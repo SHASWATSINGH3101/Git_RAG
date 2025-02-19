@@ -1,7 +1,6 @@
-# Git_RAG
 # RAG-Powered GitHub Code Ingestion and Query System
 
-This project provides a streamlined way to ingest GitHub repositories, process their contents, and use Retrieval-Augmented Generation (RAG) with a Language Model to answer questions about the code.
+This project provides a streamlined way to ingest GitHub repositories, process their contents, and use Retrieval-Augmented Generation (RAG) with a Language Model to answer questions about the code. This project runs locally and requires Ollama with the LLM of your choice installed.
 
 ## Features
 
@@ -21,12 +20,18 @@ Ensure you have Python installed (recommended: Python 3.8+). Then install the re
 pip install flask llama-index torch gitingest
 ```
 
+Additionally, install Ollama and the LLM of your choice:
+
+```bash
+ollama pull <your-llm-model>
+```
+
 ### Running the Application
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   cd yourproject
+   git clone https://github.com/SHASWATSINGH3101/Git_RAG
+   cd Git_RAG
    ```
 
 2. Run the Flask application:
@@ -45,6 +50,22 @@ pip install flask llama-index torch gitingest
 2. Specify directories and embedding model parameters.
 3. Input a query to retrieve insights about the code.
 4. View results in the web interface.
+
+## Recommended File Structure
+
+```
+project_root/
+│── data/
+│   ├── data.txt
+│── index/
+│── templates/
+│   ├── index.html
+│── static/
+│   ├── styles.css
+│── app.py
+│── requirements.txt
+│── README.md
+```
 
 ## Configuration
 
