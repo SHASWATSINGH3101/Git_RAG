@@ -61,10 +61,6 @@ project_root/
 │── data/
 │   ├── data.txt
 │── index/
-│── templates/
-│   ├── index.html
-│── static/
-│   ├── styles.css
 │── app.py
 │── requirements.txt
 │── README.md
