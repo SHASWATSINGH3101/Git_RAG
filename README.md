@@ -20,7 +20,7 @@ This project provides a streamlined way to ingest GitHub repositories, process t
 Ensure you have Python installed (recommended: Python 3.8+). Then install the required dependencies:
 
 ```bash
-pip install flask llama-index torch gitingest
+pip install llama-index torch gitingest
 ```
 
 Additionally, install Ollama and the LLM of your choice:
