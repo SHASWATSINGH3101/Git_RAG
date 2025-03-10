@@ -50,7 +50,7 @@ def rag_setup(embed_model_name, llm_model_name, choice):
             model=llm_model_name,
             temperature=0.7,
             max_tokens=265,
-            api_key='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'
+            api_key=''
         )
     elif choice == 'offline':
         llm = ChatOllama(
